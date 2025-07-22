@@ -1,0 +1,63 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+background-image:url("https://images.unsplash.com/photo-1672724728525-519ba8431e3d?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTMxNDYyMjN8&ixlib=rb-4.1.0&q=85");
+    background-attachment:fixed;
+    background-repeat: no-repeat;
+    background-size:100%;}
+
+header, footer {
+    background-color: white;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+main {
+    padding: 20px;
+    text-align: center;
+}
+
+/* Add specific styles for navigation, main content, images, etc. */
+/* Style all font awesome icons */
+.fa {
+  padding: 30px;
+  font-size: 45px;
+  width: 20px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 60%
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.5; background-color:white; color:#0e8229  
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+  background: #0e8229;
+  color: white;
+}
+
+/* Twitter */
+.fa-twitter {
+  background: #0e8229;
+  color: white;
+}
+
+nav ul{list-style-type: none}
+nav ul li{display: inline-block; padding:2%}
+nav a{text-decoration:none; color:#0e8229; font-family:Helvetica; font-size:160%; font-weight:bold}
+nav a:hover{color:white}
+
+h1{font-family:Georgia;
+color: white;
+font-size:2.5em}
+p{font-family:Georgia;
+color:white;
+font-size: 1.9em}
+
